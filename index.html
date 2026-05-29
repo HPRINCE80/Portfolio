@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -231,6 +230,55 @@
         </div>
       </div>
 
+      <div class="project-card">
+        <div class="project-top">
+          <div class="project-icon"><i class="fas fa-microphone-alt"></i></div>
+          <div class="project-links">
+            <a href="https://github.com/HPRINCE80/Code-Review" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>AI Code Reviewer</h3>
+        <p class="project-stack"> React.js · Monaco Editor · Node.js · Express.js · Google Gemini 2.5 Flash · Docker
+        </p>
+        <p class="project-desc">
+          
+          • Integrated Google Gemini 2.5 Flash API with a custom system prompt to simulate a Senior Code Reviewer,
+          providing feedback on code quality, security, and performance.
+          • Architected backend with Node.js + Express.js using strict MVC pattern (routes → controllers → services) for
+          clean separation of concerns and scalability.
+        </p>
+        <div class="project-tags">
+          <span>AI Integration</span>
+          <span>Code Review</span>
+          <span>~40% Faster</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <div class="project-icon"><i class="fas fa-microphone-alt"></i></div>
+          <div class="project-links">
+            <a href="https://github.com/HPRINCE80/Real-time-Collaborative" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>Real-time Collaborative Editor</h3>
+        <p class="project-stack">
+          React.js · Node.js · Express.js · Socket.io · Docker
+        </p>
+        <p class="project-desc">
+          Built a real-time collaborative code editor enabling multiple users to write and edit code simultaneously,
+          with
+          changes reflected instantly across all connected clients.
+          • Implemented WebSocket-based live synchronization using Socket.io for low-latency bi-directional
+          communication between users.
+
+        </p>
+        <div class="project-tags">
+          <span>AI Integration</span>
+          <span>Code Review</span>
+          <span>~40% Faster</span>
+        </div>
+      </div>
       <div class="project-card featured">
         <div class="project-top">
           <div class="project-icon"><i class="fas fa-user-circle"></i></div>
@@ -306,14 +354,15 @@
     <p>© 2026 <strong>Prince Yaduvanshi</strong>. Designed &amp; built with HTML, CSS &amp; JS.</p>
     <div class="footer-links">
       <a href="https://github.com/HPRINCE80" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/prince-yaduvanshi-a99b71354" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.linkedin.com/in/prince-yaduvanshi-a99b71354" target="_blank"><i
+          class="fab fa-linkedin"></i></a>
     </div>
   </footer>
 
   <script>
     /* ── Active nav on scroll ── */
     const sections = document.querySelectorAll('section[id]');
-    const navLis   = document.querySelectorAll('.nav-links li');
+    const navLis = document.querySelectorAll('.nav-links li');
 
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
@@ -328,7 +377,7 @@
     sections.forEach(s => observer.observe(s));
 
     /* ── Hamburger menu ── */
-    const ham   = document.getElementById('hamburger');
+    const ham = document.getElementById('hamburger');
     const links = document.getElementById('navLinks');
 
     ham.addEventListener('click', () => {
@@ -359,4 +408,5 @@
   </script>
 
 </body>
+
 </html>
