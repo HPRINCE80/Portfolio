@@ -72,30 +72,31 @@ window.addEventListener("load", () => {
     }, 500);
 });
 
+
 gsap.from(".skill-card", {
     scale: 0,
-    stagger: 0.2,
-    duration: 1,
+    opacity: 0,
+    stagger: 0.15,
+    duration: 0.7,
+    ease: "back.out(1.5)",
     scrollTrigger: {
         trigger: ".skills-grid",
-        start: "top 80%",
-        end: "top 20%",
-        scrub: 1,
-        // invalidateOnRefresh: true,
-        toggleActions: "play none none reverse"
+        start: "top 85%",
+        scrub:1,
+        toggleActions: "play none none reverse",
     }
 });
 
 gsap.from(".achievements-grid .achievement-card", {
     scale: 0,
-    stagger: 0.2,
-    duration: 1,
+    opacity: 0,
+    stagger: 0.15,
+    duration: 0.7,
+    ease: "back.out(1.5)",
     scrollTrigger: {
         trigger: ".achievements-grid",
-        start: "top 80%",
-        end: "top 30%",
-        scrub: 1,
-        // invalidateOnRefresh: true,
-        toggleActions: "play none none reverse"
+        start: "top 85%",
+        toggleActions: "play none none reverse",
+        scrub:1
     }
 });

@@ -439,9 +439,9 @@ img { display: block; max-width: 100%; }
   border: 1px solid var(--green-border);
   border-radius: var(--radius);
   padding: 26px;
-  opacity: 0;
+  /* opacity: 0; */
   transform: translateY(24px);
-  transition: opacity 0.5s ease, transform 0.5s ease, box-shadow var(--transition);
+  /* transition: opacity 0.5s ease, transform 0.5s ease, box-shadow var(--transition); */
 }
 .skill-card.visible { opacity: 1; transform: translateY(0); }
 .skill-card:hover {
@@ -544,9 +544,9 @@ img { display: block; max-width: 100%; }
   border-radius: var(--radius);
   padding: 32px 28px;
   text-align: center;
-  opacity: 0;
+  /* opacity: 0; */
   transform: translateY(24px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
+  /* transition: opacity 0.5s ease, transform 0.5s ease; */
 }
 .achievement-card.visible { opacity: 1; transform: translateY(0); }
 .ach-num {
