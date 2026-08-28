@@ -29,7 +29,8 @@ html { scroll-behavior: smooth; scroll-padding-top: var(--nav-h); }
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
   line-height: 1.6;
   min-height: 100vh;
   overflow-x: hidden;
