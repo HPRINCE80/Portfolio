@@ -82,6 +82,7 @@ gsap.from(".skill-card", {
     scrollTrigger: {
         trigger: ".skills-grid",
         start: "top 85%",
+        end:"top 30%",
         scrub:1,
         toggleActions: "play none none reverse",
     }
@@ -96,6 +97,35 @@ gsap.from(".achievements-grid .achievement-card", {
     scrollTrigger: {
         trigger: ".achievements-grid",
         start: "top 85%",
+        toggleActions: "play none none reverse",
+        scrub:1
+    }
+});
+gsap.from(".project-card", {
+    scale: 0,
+    opacity: 0,
+    stagger: 0.15,
+    duration: 0.7,
+    ease: "back.out(1.5)",
+    scrollTrigger: {
+        trigger: ".project-card",
+        
+        toggleActions: "play none none reverse",
+        scrub:1
+    }
+});
+gsap.from(".about-text  ", {
+    scale: 0,
+    opacity: 0,
+    stagger: 0.2,
+    duration: 0.7,
+
+    // ease: "back.out(1.5)",
+    scrollTrigger: {
+        trigger: ".about-text  ",
+        start:"top 90%",
+        end:"top 60%",
+        
         toggleActions: "play none none reverse",
         scrub:1
     }
