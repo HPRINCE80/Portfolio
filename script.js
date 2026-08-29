@@ -265,3 +265,31 @@ gsap.from(".home-info h1.bh span.b", {
     delay: 0.5,
     stagger: -0.2,
 });
+
+
+gsap.from(".footer p", {
+    y: 50,
+    opacity: 0,
+    duration: 0.8,
+    delay:0.5,
+    stagger:0.15,
+    // scrollTrigger: {
+    //     trigger: ".footer",
+    //     start: "top 90%",
+    //     toggleActions: "play none none reverse",
+    // }
+});
+
+gsap.from(".footer-links a", {
+    scale: 0,
+    opacity: 0,
+    stagger: 0.15,
+    duration: 0.6,
+    ease: "back.out(1.5)",
+    scrollTrigger: {
+        trigger: ".footer",
+        start: "top 90%",
+        stagger:0.3,
+        toggleActions: "play none none reverse",
+    }
+});
