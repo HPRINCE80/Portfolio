@@ -276,6 +276,8 @@ gsap.from(".footer p", {
     scrollTrigger: {
         trigger: ".footer",
         start: "top 90%",
+        end:"top 88%",
+        scrub:1,
         toggleActions: "play none none reverse",
     }
 });
