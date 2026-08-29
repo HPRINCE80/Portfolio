@@ -101,19 +101,7 @@ gsap.from(".achievements-grid .achievement-card", {
         scrub:1
     }
 });
-gsap.from(".project-card", {
-    scale: 0,
-    opacity: 0,
-    stagger: 0.15,
-    duration: 0.7,
-    ease: "back.out(1.5)",
-    scrollTrigger: {
-        trigger: ".project-card",
-        
-        toggleActions: "play none none reverse",
-        scrub:1
-    }
-});
+
 gsap.from(".about-text  ", {
     scale: 0,
     opacity: 0,
@@ -132,17 +120,6 @@ gsap.from(".about-text  ", {
 });
 
 
-gsap.from(".contact-grid .contact-card", {
-    scale: 0,
-    stagger: 0.15,
-    duration: 0.7,
-    ease: "back.out(1.5)",
-    scrollTrigger: {
-        trigger: ".contact-grid",
-        start: "top 85%",
-        toggleActions: "play none none reverse",
-    }
-});
 
 
 gsap.from("#achievements .project-tags span", {
@@ -153,6 +130,77 @@ gsap.from("#achievements .project-tags span", {
     ease: "back.out(1.5)",
     scrollTrigger: {
         trigger: "#achievements .project-tags",
+        start: "top 85%",
+        toggleActions: "play none none reverse",
+    }
+});
+
+
+
+gsap.from(".section-title", {
+    y: 30,
+    opacity: 0,
+    duration: 0.8,
+    scrollTrigger: {
+        trigger: ".section-title",
+        start: "top 85%",
+        toggleActions: "play none none reverse",
+    }
+});
+
+gsap.from(".about-stats div", {
+    scale: 0,
+    opacity: 0,
+    stagger: 0.15,
+    duration: 0.6,
+    ease: "back.out(1.5)",
+    scrollTrigger: {
+        trigger: ".about-stats",
+        start: "top 85%",
+        toggleActions: "play none none reverse",
+    }
+});
+
+
+gsap.from("#about .about-card", {
+    scale: 0,
+    opacity: 0,
+    stagger: 0.15,
+    duration: 0.7,
+    ease: "back.out(1.5)",
+    scrollTrigger: {
+        trigger: "#about .about-cards",
+        start: "top 85%",
+        toggleActions: "play none none reverse",
+    }
+});
+
+
+
+gsap.from("#projects .project-card", {
+    scale: 0,
+    opacity: 0,
+    stagger: 0.15,
+    duration: 0.7,
+    ease: "back.out(1.5)",
+    scrollTrigger: {
+        trigger: "#projects .projects-grid",
+        start: "top 85%",
+        toggleActions: "play none none reverse",
+    }
+});
+
+
+
+
+gsap.from(".contact-card", {
+    scale: 0,
+    opacity: 0,
+    stagger: 0.15,
+    duration: 0.7,
+    ease: "back.out(1.5)",
+    scrollTrigger: {
+        trigger: ".contact-grid",
         start: "top 85%",
         toggleActions: "play none none reverse",
     }

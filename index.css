@@ -569,15 +569,15 @@ img { display: block; max-width: 100%; }
   padding: 0 7% 70px;
 }
 .contact-card {
+  /* opacity: 0;  ← hata do */
+  /* transform: translateY(24px);  ← hata do */
   display: block;
   background: var(--card);
   border: 1px solid var(--green-border);
   border-radius: var(--radius);
   padding: 30px 24px;
   text-align: center;
-  /* opacity: 0; */
-  transform: translateY(24px);
-  /* transition: opacity 0.5s ease, transform 0.5s ease, box-shadow var(--transition), border-color var(--transition); */
+  transition: box-shadow var(--transition), border-color var(--transition);
 }
 .contact-card.visible { opacity: 1; transform: translateY(0); }
 a.contact-card:hover {
