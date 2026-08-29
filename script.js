@@ -273,11 +273,11 @@ gsap.from(".footer p", {
     duration: 0.8,
     delay:0.5,
     stagger:0.15,
-    // scrollTrigger: {
-    //     trigger: ".footer",
-    //     start: "top 90%",
-    //     toggleActions: "play none none reverse",
-    // }
+    scrollTrigger: {
+        trigger: ".footer",
+        start: "top 90%",
+        toggleActions: "play none none reverse",
+    }
 });
 
 gsap.from(".footer-links a", {
