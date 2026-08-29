@@ -34,6 +34,8 @@ body {
   line-height: 1.6;
   min-height: 100vh;
   overflow-x: hidden;
+  /* user-select: none; */
+  
 }
 
 /* Subtle noise texture overlay */
@@ -161,7 +163,12 @@ img { display: block; max-width: 100%; }
   line-height: 1.05;
   margin-bottom: 1rem; 
 }
-
+.home-info h1 span {
+  display: inline-block;
+}
+.home-info h1.bh span {
+  display: inline-block;
+}
 .home-info h2 {
   font-size: clamp(1.1rem, 2vw, 1.4rem);
   color: var(--muted);
