@@ -251,10 +251,17 @@ function breakTeText() {
 
 breakTeText();
 
-gsap.from(".home-info h1.bh span.a, .home-info h1.bh span.b", {
+gsap.from(".home-info h1.bh span.a", {
     y: 50,
     opacity: 0,
     duration: 0.8,
     delay: 0.5,
     stagger: 0.3,
+});
+gsap.from(".home-info h1.bh span.b", {
+    y: 50,
+    opacity: 0,
+    duration: 0.8,
+    delay: 0.5,
+    stagger: -0.2,
 });
