@@ -130,3 +130,30 @@ gsap.from(".about-text  ", {
         scrub:1
     }
 });
+
+
+gsap.from(".contact-grid .contact-card", {
+    scale: 0,
+    stagger: 0.15,
+    duration: 0.7,
+    ease: "back.out(1.5)",
+    scrollTrigger: {
+        trigger: ".contact-grid",
+        start: "top 85%",
+        toggleActions: "play none none reverse",
+    }
+});
+
+
+gsap.from("#achievements .project-tags span", {
+    scale: 0,
+    opacity: 0,
+    stagger: 0.08,
+    duration: 0.5,
+    ease: "back.out(1.5)",
+    scrollTrigger: {
+        trigger: "#achievements .project-tags",
+        start: "top 85%",
+        toggleActions: "play none none reverse",
+    }
+});

@@ -575,9 +575,9 @@ img { display: block; max-width: 100%; }
   border-radius: var(--radius);
   padding: 30px 24px;
   text-align: center;
-  opacity: 0;
+  /* opacity: 0; */
   transform: translateY(24px);
-  transition: opacity 0.5s ease, transform 0.5s ease, box-shadow var(--transition), border-color var(--transition);
+  /* transition: opacity 0.5s ease, transform 0.5s ease, box-shadow var(--transition), border-color var(--transition); */
 }
 .contact-card.visible { opacity: 1; transform: translateY(0); }
 a.contact-card:hover {
