@@ -674,3 +674,18 @@ a.contact-card:hover {
   .home-info h1 { font-size: 2.4rem; }
   .img-box { width: 200px; height: 200px; }
 }
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--green);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6bd42f;
+}
