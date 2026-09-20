@@ -748,7 +748,51 @@
       revealEls.forEach((el) => revealObs.observe(el));
     </script>
 
-  
-</script>
+    <audio id="bgMusic" autoplay loop preload="auto">
+      <source src="./videoplayback.m4a" type="audio/mpeg" />
+    </audio>
+    <button id="musicToggle" class="music-toggle" type="button" aria-label="Play background music" aria-pressed="false">
+      <i class="fas fa-volume-xmark" aria-hidden="true"></i>
+    </button>
+
+    <script>
+      const audio = document.getElementById("bgMusic");
+      const musicToggle = document.getElementById("musicToggle");
+
+      audio.volume = 0.2;
+
+      const updateMusicButton = () => {
+        const isPlaying = !audio.paused;
+        musicToggle.setAttribute("aria-pressed", String(isPlaying));
+        musicToggle.setAttribute(
+          "aria-label",
+          isPlaying ? "Pause background music" : "Play background music",
+        );
+        musicToggle.innerHTML = `<i class="fas fa-volume-${isPlaying ? "high" : "xmark"}" aria-hidden="true"></i>`;
+      };
+
+      const startMusic = () => {
+        audio.play().catch(() => updateMusicButton());
+        document.removeEventListener("click", startMusic);
+        document.removeEventListener("keydown", startMusic);
+      };
+
+      audio.addEventListener("play", updateMusicButton);
+      audio.addEventListener("pause", updateMusicButton);
+      musicToggle.addEventListener("click", (event) => {
+        event.stopPropagation();
+        if (audio.paused) {
+          audio.play().catch(() => updateMusicButton());
+        } else {
+          audio.pause();
+        }
+      });
+
+      document.addEventListener("click", startMusic, { once: true });
+      document.addEventListener("keydown", startMusic, { once: true });
+      audio.play().catch(() => updateMusicButton());
+    </script>
+
+
   </body>
 </html> 
