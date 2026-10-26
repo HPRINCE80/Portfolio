@@ -22,13 +22,19 @@
 
 ## 🧑‍💻 About Me
 
-I'm a **B.Tech Computer Science student at AKTU (2024–2028)** and a passionate developer from India. I enjoy creating responsive interfaces, reliable backend APIs, AI-powered tools, and real-time applications that solve practical problems.
+I'm a passionate developer from India and a **Full Stack Developer** pursuing a **B.Tech in Computer Science at AKTU (2024–Present)**. I build and deploy MERN applications, AI-powered tools, and Python automations, and am seeking a Full Stack Developer internship.
 
 - 🔭 Currently building full-stack applications with the **MERN stack**
 - 🧠 Solved **300+ DSA problems** from the Striver A2Z sheet
 - 🤖 Exploring **AI integration, automation, and real-time systems**
 - 🤝 Open to **internships, freelance projects, and collaborations**
 - ⚡ Fun fact: I love turning complex ideas into simple user experiences
+
+## 💼 Experience
+
+**Junior Software Developer Intern — YuvaIntern (2026)**
+
+Worked on web development tasks as part of a team.
 
 ## 🛠️ Tech Stack
 
@@ -38,7 +44,9 @@ I'm a **B.Tech Computer Science student at AKTU (2024–2028)** and a passionate
 ![C++](https://img.shields.io/badge/C%2B%2B-111318?style=for-the-badge&logo=c%2B%2B&logoColor=7cf03d)
 ![Python](https://img.shields.io/badge/Python-111318?style=for-the-badge&logo=python&logoColor=7cf03d)
 ![JavaScript](https://img.shields.io/badge/JavaScript-111318?style=for-the-badge&logo=javascript&logoColor=7cf03d)
+![TypeScript](https://img.shields.io/badge/TypeScript-111318?style=for-the-badge&logo=typescript&logoColor=3178C6)
 ![React](https://img.shields.io/badge/React-111318?style=for-the-badge&logo=react&logoColor=61dafb)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-111318?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4)
 ![Node.js](https://img.shields.io/badge/Node.js-111318?style=for-the-badge&logo=node.js&logoColor=7cf03d)
 ![Express](https://img.shields.io/badge/Express-111318?style=for-the-badge&logo=express&logoColor=ffffff)
 ![MongoDB](https://img.shields.io/badge/MongoDB-111318?style=for-the-badge&logo=mongodb&logoColor=47A248)
@@ -57,6 +65,7 @@ I'm a **B.Tech Computer Science student at AKTU (2024–2028)** and a passionate
 | [**AI Code Reviewer**](https://code-review-1-9r2r.onrender.com/) | Reviews code for quality, security, and performance like a senior developer | React, Monaco Editor, Express, Gemini API |
 | [**SmartClasses**](https://sbasmartclasses.in) | Online learning platform with course management and enrollment-gated videos | React, Node.js, MongoDB, YouTube API |
 | [**Real-time Collaborative Editor**](https://real-time-collaborative-nraj.onrender.com/) | Multi-user code editing with instant synchronization | React, Socket.io, Express, Docker |
+| [**School Management System (ManuOS)**](https://vidya-indol-phi.vercel.app/login) | MERN school management system with role-based access, 21+ REST APIs, and secured backend | React, Node.js, Express, MongoDB, JWT, Tailwind CSS |
 
 ## 📊 GitHub Activity
 
